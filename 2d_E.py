@@ -10,7 +10,7 @@ numberofatoms = 2
 boxsize = 100
 timestep = 0.001
 equilibrium = 40
-spring_k = 20
+spring_k = 200
 num_steps = int(input("How many steps to integrate? "))
 
 # state vector: [x0, y0, x1, y1, vx0, vy0, vx1, vy1, ax0, ay0, ax1, ay1, 1]

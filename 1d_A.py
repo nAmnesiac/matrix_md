@@ -10,7 +10,7 @@ rng = np.random.default_rng()
 #==========system=======
 numberofatoms = 1
 boxsize = 100
-timestep = 5
+timestep = 0.1
 num_steps = int(input("How many steps to integrate? "))
 
 params = rng.random((3,1))
@@ -83,3 +83,4 @@ ani = animation.FuncAnimation(
 )
 
 plt.tight_layout()
+plt.show()
